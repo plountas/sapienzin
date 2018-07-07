@@ -1,0 +1,163 @@
+body/*toda a parte do body*/ 
+{
+    height: 100%;
+    margin: 0px;
+    background-color:#1e1e1e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    overflow-x: hidden;
+    background-image: url(../Imagens/fundo.jpeg);
+}
+h1/*h1 do body*/
+{
+    text-align: center
+}
+p
+{
+    text-indent:4em
+}
+div#conteudoprincipal/*conteudo de todas as paginas*/
+{
+    position: relative;
+    min-height: 700px;
+    background-color: aliceblue;
+    margin: auto auto auto auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px 10px 10px 10px;
+    padding-bottom:20px;
+}
+a/*links do documento todo*/ 
+{
+    list-style-type: none;
+    color: whitesmoke;
+    text-decoration-line: none;
+    text-emphasis: none;
+}
+header#cabecalho
+{
+    width: inherit;
+    height: 50px;
+    background-color: #1e1e1e;
+    margin:-20px auto 0px -10px;
+    box-shadow: 0px 0px 10px rgba(48, 76, 37);
+    padding: 10px 10px 10px 10px;
+}
+nav#menu/*conjunto de links da pagina principal*/
+{
+    display: block;
+    color: black;
+    position:inherit;
+    top: 0%;
+    left: 0%;
+}
+nav#menu ul/*conjunto dos link aplicação geral*/
+{
+    list-style: none;
+    padding: 0;
+}
+nav#menu li/*aplicação de cada link individual*/
+{
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+nav#pagina ul/*por enquanto nada*/
+{
+    list-style: none;
+}
+nav#pagina li/*por enquanto nada*/
+{
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.listas/*menu listas*/
+{
+    list-style:none; 
+    border:1px solid #1e1e1e; 
+    float:left; 
+}
+.listas li
+{
+    position:relative; 
+    float:left; 
+    border-right:1px solid #1e1e1e; 
+}
+.listas li a
+{
+    color:#fff; text-decoration:none; padding:5px 10px; display:block;
+} 
+.listas li a:hover
+{
+    *{margin: 0; padding: 0;}
+    background: #1e1e1e; 
+    color: greenyellow; 
+    -moz-box-shadow: 0 3px 10px 0 #1e1e1e;
+    -webkit-box-shadow: 0 0px 0px 0 #1e1e1e;
+    text-shadow: 0px 0px 5px; 
+}
+.listas li  ul
+{
+    position: absolute; 
+    top: 37px; 
+    left: 0;
+    background-color: #1e1e1e; 
+    display: none;
+}
+.listas li:hover ul, .listas li.over ul
+{
+    display:block;
+}
+.listas li ul li
+{
+    border: 0px solid #1e1e1e; 
+    display: block; 
+    width: 100px;
+}
+nav#pagina a/*links secundarios*/
+{
+    color: #1e1e1e;
+}
+img#Integrantes /*imagens da aba integrantes*/
+{
+    display: block;
+    align-content: center;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+}
+.imgindex/*imagens index*/
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 319px; 
+    width: 614px;
+}
+img#menuInt 
+{
+    display: block;
+    position: absolute;
+    align-content: center;
+    top: 250px;
+    left: 550px;
+}
+img#Interacao
+{
+    display: block;
+    align-content: center;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+footer#rodape/*corprights e etc*/
+{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}

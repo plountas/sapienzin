@@ -16,6 +16,35 @@ p
 {
     text-indent:4em
 }
+
+div#nata-entertainment /*Div nata*/
+{
+    /*position: relative;
+    color:  #000000;
+    background-color: #000000;
+    margin:-15px -100px 5px -10px;
+    width: 100%;
+    height: 70px;*/
+    position: relative;
+     width: inherit;
+    height: 50px;
+    background-color: #000000;
+    margin:-20px -10px 0px -10px;
+
+    padding: 10px 0px 20px 10px;
+   
+}
+
+ img#logo_sapiens{
+     position: relative;
+    width: 130px;
+    height: 60px;
+     left: -20px;
+     top: 10px;
+     
+}
+/*    </Div nata>     
+*/
 div#conteudoprincipal/*conteudo de todas as paginas*/
 {
     position: relative;
@@ -35,30 +64,41 @@ a/*links do documento todo*/
 }
 header#cabecalho
 {
-    width: inherit;
-    height: 50px;
-    background-color: #1e1e1e;
-    margin:-20px auto 0px -10px;
-    box-shadow: 0px 0px 10px rgba(48, 76, 37);
-    padding: 10px 10px 10px 10px;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+    padding: 10px 0px 15px 10px;
+    margin:-20px -10px 30px -10px;
+    box-shadow: 0px 0px 10px;
+   
 }
+div#text{
+    min-height: 500px;
+    padding-top: 50px;
+}
+
+
 nav#menu/*conjunto de links da pagina principal*/
 {
-    display: block;
+    position: relative;
+     padding: 10px 10px 10px 40px;
     color: black;
     position:inherit;
-    top: 0%;
-    left: 0%;
+    top: 13%;
+    left: 2%;
 }
 nav#menu ul/*conjunto dos link aplicação geral*/
 {
+    
     list-style: none;
-    padding: 0;
+    padding: 80;
+   
 }
 nav#menu li/*aplicação de cada link individual*/
 {
     display: inline-block;
-    padding-left: 10px;
+    padding-left: 5px;
     padding-top: 0px;
     padding-bottom: 10px;
     padding-right: 10px;
@@ -78,14 +118,14 @@ nav#pagina li/*por enquanto nada*/
 .listas/*menu listas*/
 {
     list-style:none; 
-    border:1px solid #1e1e1e; 
+   
     float:left; 
 }
 .listas li
 {
     position:relative; 
     float:left; 
-    border-right:1px solid #1e1e1e; 
+    border-right:0px solid #000000; 
 }
 .listas li a
 {

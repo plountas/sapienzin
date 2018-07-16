@@ -2,11 +2,12 @@ body/*toda a parte do body*/
 {
     height: 100%;
     margin: 0px;
-    background-color:#1e1e1e;
+    background-color:#000000;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     overflow-x: hidden;
-    background-image: url(../Imagens/fundo.jpeg);
+    
+    /* background-image: url(../Imagens/fundo.jpeg);*/
 }
 h1/*h1 do body*/
 {
@@ -50,9 +51,9 @@ div#conteudoprincipal/*conteudo de todas as paginas*/
     position: relative;
     min-height: 700px;
     background-color: aliceblue;
-    margin: auto auto auto auto;
-    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
-    padding: 10px 10px 10px 10px;
+    margin: auto 70px auto 70px;
+    box-shadow: 0px 0px 10px rgba(17,17,17);
+    padding: 10px 0px 0px 0px;
     padding-bottom:20px;
 }
 a/*links do documento todo*/ 
@@ -160,8 +161,13 @@ nav#pagina li/*por enquanto nada*/
 }
 nav#pagina a/*links secundarios*/
 {
-    color: #1e1e1e;
+    color: #000000;
 }
+div#video{
+    padding-top: 65px;
+}
+
+
 img#Integrantes /*imagens da aba integrantes*/
 {
     display: block;

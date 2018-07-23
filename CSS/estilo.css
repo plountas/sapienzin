@@ -1,3 +1,13 @@
+
+
+
+
+
+
+/*
+
+/*Configuração css de Todo o Site*/
+
 body/*toda a parte do body*/ 
 {
     height: 100%;
@@ -18,7 +28,24 @@ p
     text-indent:4em
 }
 
-div#nata-entertainment /*Div nata*/
+a/*links do documento todo*/ 
+{
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration-line: none;
+    text-emphasis: none;
+}
+
+div#text{
+    min-height: 500px;
+    padding-top: 50px;
+}
+
+
+
+
+div#nata-entertainment Div nata /*Div nata*/
 {
     /*position: relative;
     color:  #000000;
@@ -36,23 +63,7 @@ div#nata-entertainment /*Div nata*/
    
 }
 
- img#logo_sapiens{
-     position: relative;
-    width: 130px;
-    height: 60px;
-     left: -20px;
-     top: 10px;
-     
-}
-.icones_rsociais{
-     width: 45px;
-    height: 45px;
-    
-}
 
-
-/*    </Div nata>     
-*/
 div#conteudoprincipal/*conteudo de todas as paginas*/
 {
     position: relative;
@@ -63,46 +74,47 @@ div#conteudoprincipal/*conteudo de todas as paginas*/
     padding: 10px 0px 0px 0px;
     padding-bottom:20px;
 }
-a/*links do documento todo*/ 
-{
-    list-style-type: none;
-    color: #ffffff;
-    font-size: 20px;
-    text-decoration-line: none;
-    text-emphasis: none;
-}
+
+
+
+/*CABEÇALHO COM AS IMAGENS, LINKS e ICONES REDE SOCIAL*/
 header#cabecalho
 {
-    position: absolute;
+    position: fixed;
     width: 100%;
-    height: 60px;
+    height: 50px;
     background-color: #000000;
     padding: 10px 0px 15px 10px;
     margin:-20px -10px 30px -10px;
     box-shadow: 0px 0px 10px;
    
 }
-div#text{
-    min-height: 500px;
-    padding-top: 50px;
-}
 
+
+img#logo_sapiens{
+     position: relative;
+    width: 130px;
+    height: 60px;
+     left: -20px;
+     top: 10px;
+}
 
 nav#menu/*conjunto de links da pagina principal*/
 {
     position: relative;
-    padding: 10px 10px 10px 40px;
+   
+    padding: 7px 0px 30px 120px;
     color: black;
     position:inherit;
-    top: 13%;
-    left: 2%;
+    top: 0px;
+    left: 0px;
 }
 nav#menu ul/*conjunto dos link aplicação geral*/
 {
     
     list-style: none;
-    padding: 80;
-   
+    
+  
 }
 nav#menu li/*aplicação de cada link individual*/
 {
@@ -121,7 +133,7 @@ nav#pagina li/*por enquanto nada*/
     display: inline-block;
     padding-left: 10px;
     padding-top: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     padding-right: 10px;
 }
 .listas/*menu listas*/
@@ -137,7 +149,7 @@ nav#pagina li/*por enquanto nada*/
 }
 .listas li a
 {
-    color:#fff; text-decoration:none; padding:5px 10px; display:block;
+    color:#fff; text-decoration:none; padding:5px 10px; display:block; 
 } 
 .listas li a:hover
 {
@@ -147,6 +159,7 @@ nav#pagina li/*por enquanto nada*/
     -moz-box-shadow: 0 3px 10px 0 #000000;
     -webkit-box-shadow: 0 0px 0px 0 #000000;
     text-shadow: 0px 0px 0px; 
+     
 }
 .listas li  ul
 {
@@ -155,23 +168,88 @@ nav#pagina li/*por enquanto nada*/
     left: 0;
     background-color: #000000; 
     display: none;
+     /*padding-bottom: 10px;
+     opacity: 0.6; 
+    -moz-opacity: 0.6;
+    Filter: Alpha(Opacity=90)*/
 }
 .listas li:hover ul, .listas li.over ul
 {
     display:block;
+   
 }
 .listas li ul li
 {
     border: 0px solid #1e1e1e; 
     display: block; 
-    width: 100px;
+    width: 80px;
+   right: 35px;
 }
+
+
+
+
+.iconesindividuais /*icones individuais*/
+{
+    width: 45px;
+    height: 45px;
+    padding-left: 15px;
+}
+
+div#iconesredesocial
+{
+    position: relative;
+    float: right;
+    top: 20px;
+    right: 200px;
+}
+
+
+img.acende {
+
+     width: 45px;
+    height: 45px;
+    padding-left: 15px;
+    -webkit-filter:grayscale(100%);
+}
+
+
+img.acende:hover {
+ -webkit-filter:grayscale(0%);
+    transition: 1s;
+     width: 45px;
+    height: 45px;
+    padding-left: 15px;
+    
+    
+    
+     background: #3fc68e; 
+    color: #3fc68e; 
+    -moz-box-shadow: 0 3px 10px 0 #3fc68e;
+    -webkit-box-shadow: 0 0px 0px 0 #3fc68e;
+    text-shadow: 0px 0px 0px; 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 nav#pagina a/*links secundarios*/
 {
     color: #000000;
 }
+
 div#video{
-    padding-top: 65px;
+    padding-top: 55.5px;
 }
 
 
@@ -207,10 +285,14 @@ img#Interacao
     top: 200px;
     left: 400px;
 }
-footer#rodape/*corprights e etc*/
+
+
+footer#rodape/*RODAPÉ DA PAGINA*/
 {
     position: absolute;
     bottom: 10px;
     width: 100%;
     text-align: center;
 }
+
+
